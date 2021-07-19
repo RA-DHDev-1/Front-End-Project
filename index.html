@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/hover.css">
+    <link rel="stylesheet" href="./css/anim.css">
     <link rel="shortcut icon" href="img/movian.ico" type="icon">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet"> 
@@ -14,17 +16,39 @@
     <!-- Conteúdo Header -->
     <header>
         <nav>
-            <ul>
-                <li><img src="img/home.png" alt="Home"><a href="#">Home</a></li>
-                <li><img src="img/builds.png" alt="Builds"><a href="#">Builds</a></li>
-                <li><img src="img/plugins.png" alt="Plugins"><a href="#">Plugins</a></li>
-                <li><img src="img/about.png" alt="About"><a href="#">About</a></li>
+            <ul class="list">
+                <li><img src="img/home.png" alt="Home"><a href="./test.html">Home</a></li>
+                <li><img src="img/builds.png" alt="Builds"><a href="https://movian.tv/projects/movian/repository" target=”_blank” >Builds</a></li>
+                <li><img src="img/plugins.png" alt="Plugins"><a href="https://movian.tv/plugins/movian" target=”_blank” >Plugins</a></li>
+                <li><img src="img/about.png" alt="About"><a href="https://movian.tv/projects/movian" target=”_blank”>About</a></li>
             </ul>
         </nav>
     </header>
     <!-- Corpo Principal -->
     <main class="corpo">
-        <div >
+        <form action="#" class="slide-form" id="form">
+            <h1>Login</h1>
+        <div>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Digite o seu nome">
+        </div>
+            <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="contato@gmail.com"></label>
+        </div>
+            <br>
+        <div>
+            <label for="senha">Senha</label>
+            <input type="password" placeholder="**********">
+        </div>
+            <br>
+        <div>
+            <button class="btn">Logar</button>
+            <button class="btn">Cancelar</button>
+        </div>
+        </form>
+        <div>
             <img class="corpo_img" src="img/banner.jpg" alt="banner">
         </div>
         <div>
@@ -43,17 +67,18 @@
             <p class="corpo_paragrafos">
                 Gerencie seus próprios arquivos assim como conteúdo de serviços de streaming de sua preferência.
             </p>
-            </div>
-            <div>
+        </div>
+        <div>
             <p class="corpo_bottom">
             </p>
-            </div>
-            <div class="corpo_contato_whatsapp">
-                <button >
-                    <a href="#"><img src="img/whatsapp.png" alt="whatsapp"></a>
-                </button>
+        </div>
+        <div>
+                <button class="telegram">
+                    <a href="https://telegram.me/joinchat/DgTsNwfpZgH13cHdUY1blQ" target=”_blank”><img src="img/telegram.png" alt="whatsapp"></a>
+                </button>    
             </div>
         </div>
+        </form>
     </main>
     <!-- Conteúdo Footer -->
     <footer >
@@ -61,7 +86,7 @@
             Movian - An Open Source Project
         </p>
         <p>
-            https://github.com/andoma/movian
+            <a href="https://github.com/andoma/movian" target=”_blank” alt="Andoma's Github">https://github.com/andoma/movian</a>
         </p>
     </footer>
 </body>
