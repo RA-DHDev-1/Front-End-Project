@@ -1,0 +1,30 @@
+.list a:hover {
+    color: rgb(0, 38, 255);
+}
+
+h1:hover {
+    color: #cc0000;
+}
+
+.btn:hover {
+    background: #cc0000;
+    color: black;
+    font-weight: bold;
+
+}
+
+input[type='text']:hover,
+input[type='email']:hover,
+input[type='password']:hover {
+    background-color: #cc0000;
+    border-radius: 3px;
+
+}
+
+::placeholder {
+    color: black;
+}
+
+footer a:hover {
+    color: rgb(0, 38, 255)
+}

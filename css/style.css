@@ -1,40 +1,92 @@
-*{
+* {
     margin: 0;
     padding: 2;
     background-color: #cccccc;
     box-sizing: border-box;
     font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 1rem;
 }
 
-nav{
+body {
+    background-color:#cccccc    ;
+}
+
+nav {
     display: flex;
     padding: 50px;
     justify-content: center;;
     background-color: #cc0000;
 }
 
-nav ul{
+nav ul {
     list-style: none;
     display: flex;
     background-color: #cc0000;
 }
 
-li{
+li {
     border: 10px;
     border-color: black;
     border-style: solid;
+    border-radius: 20px;
     padding: 10px;
     margin-right: 10px;
     display: block;
+}
+
+.list {
+    margin: 1% 1% 1% 3%;
 }
 
 .corpo{
     background-color: #cccccc;
 }
 
-.corpo_img{
+#form { /* CONFIGURAÇÃO DO FORMULÁRIO DIV */
+    border: 1px solid black;
+    background-color:#cccccc;
+    padding: 30px;
+    max-width: 400px;
+    margin: 1% 1% 1% 39%;
+    border-radius: 5px;
+}
+
+.corpo_img {
+    margin: 1% 1% 1% 1%;
+    width: 60%;
+    margin-inline: 21%;
+    border-radius: 20px;
+}
+
+h1 {
+    margin: 0px 0px 20px;
+    color: rgb(0, 38, 255);
+    font-family: 'Open Sans', sans-serif;
+    transition: color 0.3s ease-in-out;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'] {/* CONFIGURAÇÃO DOS INPUTS */
     width: 100%;
-    padding: 15px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    background: none;
+    color: black;
+    border-bottom: 1px solid rgb(0, 38, 255);
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: rgb(0, 38, 255);
+    color: white;
+    border: none;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .corpo_main{
@@ -52,7 +104,7 @@ li{
     text-align: center;
 }
 
-.corpo_bottom{
+.corpo_bottom {
     font-weight: bold;
     color: black;
     font-size: 30px;
@@ -60,17 +112,20 @@ li{
     padding: 30px;
 }
 
-.corpo_contato_whatsapp{
+.telegram {
    position: fixed;
-   right: 30px;
-   bottom: 30px;
-   border-style: outset;
+   right: 30.5px;
+   bottom: 30.5px;
+   z-index: 2;
+   border-radius: 50%;
+   overflow: hidden;
+   border: ridge 10px black;
 }
 
-footer{
+footer {
     text-align: center;
     font-style: italic;
-    position: inherit;
+    border-radius: 20px;
     bottom: 10px;
     border: ridge 30px black;
     font-size: 20px;

@@ -1,0 +1,42 @@
+.slide-form {
+    animation-duration: 6.3s;
+    animation-timing-function: ease-in-out;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+    margin-left: -100%;
+    }
+    to {
+        margin-left: 1;
+    }
+}
+
+.corpo_img {
+    animation-duration: 4.7s;
+    animation-timing-function: ease-in-out;
+    animation-name: slide;
+}
+@keyframes slide{
+    from {
+        margin-top: -31.5%;
+    }
+    to {
+        margin-bottom: 1;
+    }
+}
+.list {
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
+    animation-name: slide2;
+}
+
+@keyframes slide2 {
+    from {
+        margin-right: -140%;
+    }
+    to {
+        margin-left: 1;
+    }
+}
